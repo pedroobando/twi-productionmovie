@@ -1,3 +1,8 @@
+<!--
+Based off a free wix template: https://www.wix.com/website-template/view/html/2208?siteId=5a908eca-058f-4651-ab6e-93932b5a39ff&metaSiteId=f0642230-2b55-4c46-bc26-e94a799824e6&originUrl=https%3A%2F%2Fwww.wix.com%2Fwebsite%2Ftemplates%2Fhtml%2Fmost-popular
+Fonts: https://fonts.google.com/selection?selection.family=Barlow:400,700|Poppins:300,400&query=barlow
+-->
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -5,9 +10,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+    <link href="https://fonts.google.com/selection?selection.family=Barlow:400,700|Poppins:300,400&query=barlow">
     <title><%= htmlWebpackPlugin.options.title %></title>
   </head>
-  <body>
+  <body class="bg-black">
     <noscript>
       <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
     </noscript>
